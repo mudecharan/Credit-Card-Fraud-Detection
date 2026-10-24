@@ -1,0 +1,2 @@
+test_name,h0,chi2,dof,p_value,decision
+Chi-Square,channel and fraud are independent,582.44,3,6.45878348022607e-126,Reject H₀

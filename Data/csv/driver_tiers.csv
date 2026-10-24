@@ -1,0 +1,6 @@
+tier,multiplier,drivers
+1,≥5×,"high_risk_country, overnight-hour window (00-05)"
+2,2-5×,"international_transaction, account_age<30d, amount_vs_avg_ratio>5×"
+3,1.5-2×,"Online channel, Desktop/Mobile device, chargeback_ever>0, tx_last_1h≥2"
+4,1.1-1.5×,"high-risk merchant categories, declined_last_30d>0"
+5,≈1× (no signal),"customer_age, customer_gender, day-of-week, email_domain"

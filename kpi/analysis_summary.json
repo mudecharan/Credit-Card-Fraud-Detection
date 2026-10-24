@@ -1,0 +1,782 @@
+{
+  "headline_kpis": {
+    "project": "Credit Card Fraud Detection 2026",
+    "n_transactions": 100000,
+    "n_features": 52,
+    "n_fraud": 2055,
+    "n_legitimate": 97945,
+    "fraud_rate_pct": 2.055,
+    "loss_rate_pct": 2.2057,
+    "total_tx_amount": 12687197.67,
+    "total_fraud_loss": 279842.2,
+    "avg_fraud_loss": 136.18,
+    "avg_legit_amount": 125.97,
+    "avg_fraud_amount": 169.93,
+    "median_legit_amount": 52.06,
+    "median_fraud_amount": 64.8,
+    "n_customers": 8000,
+    "n_cards": 8000,
+    "n_merchants": 3000,
+    "n_merchant_categories": 15,
+    "n_countries": 20,
+    "n_fraud_types": 5,
+    "date_min": "2026-01-01 02:28:51",
+    "date_max": "2026-12-31 23:45:47",
+    "active_days": 364,
+    "computed_at": "2026-10-17T12:28:22.517130"
+  },
+  "by_hour": [
+    {
+      "transaction_hour": 0,
+      "n": 1012,
+      "frauds": 27,
+      "fraud_rate_pct": 2.668
+    },
+    {
+      "transaction_hour": 1,
+      "n": 597,
+      "frauds": 50,
+      "fraud_rate_pct": 8.375
+    },
+    {
+      "transaction_hour": 2,
+      "n": 361,
+      "frauds": 27,
+      "fraud_rate_pct": 7.479
+    },
+    {
+      "transaction_hour": 3,
+      "n": 230,
+      "frauds": 26,
+      "fraud_rate_pct": 11.304
+    },
+    {
+      "transaction_hour": 4,
+      "n": 256,
+      "frauds": 20,
+      "fraud_rate_pct": 7.812
+    },
+    {
+      "transaction_hour": 5,
+      "n": 516,
+      "frauds": 9,
+      "fraud_rate_pct": 1.744
+    },
+    {
+      "transaction_hour": 6,
+      "n": 1553,
+      "frauds": 38,
+      "fraud_rate_pct": 2.447
+    },
+    {
+      "transaction_hour": 7,
+      "n": 3159,
+      "frauds": 65,
+      "fraud_rate_pct": 2.058
+    },
+    {
+      "transaction_hour": 8,
+      "n": 4936,
+      "frauds": 106,
+      "fraud_rate_pct": 2.147
+    },
+    {
+      "transaction_hour": 9,
+      "n": 5381,
+      "frauds": 90,
+      "fraud_rate_pct": 1.673
+    },
+    {
+      "transaction_hour": 10,
+      "n": 6056,
+      "frauds": 107,
+      "fraud_rate_pct": 1.767
+    },
+    {
+      "transaction_hour": 11,
+      "n": 6611,
+      "frauds": 147,
+      "fraud_rate_pct": 2.224
+    },
+    {
+      "transaction_hour": 12,
+      "n": 6873,
+      "frauds": 111,
+      "fraud_rate_pct": 1.615
+    },
+    {
+      "transaction_hour": 13,
+      "n": 6432,
+      "frauds": 112,
+      "fraud_rate_pct": 1.741
+    },
+    {
+      "transaction_hour": 14,
+      "n": 6053,
+      "frauds": 113,
+      "fraud_rate_pct": 1.867
+    },
+    {
+      "transaction_hour": 15,
+      "n": 5744,
+      "frauds": 105,
+      "fraud_rate_pct": 1.828
+    },
+    {
+      "transaction_hour": 16,
+      "n": 5407,
+      "frauds": 104,
+      "fraud_rate_pct": 1.923
+    },
+    {
+      "transaction_hour": 17,
+      "n": 6050,
+      "frauds": 141,
+      "fraud_rate_pct": 2.331
+    },
+    {
+      "transaction_hour": 18,
+      "n": 6894,
+      "frauds": 127,
+      "fraud_rate_pct": 1.842
+    },
+    {
+      "transaction_hour": 19,
+      "n": 7343,
+      "frauds": 168,
+      "fraud_rate_pct": 2.288
+    },
+    {
+      "transaction_hour": 20,
+      "n": 6629,
+      "frauds": 133,
+      "fraud_rate_pct": 2.006
+    },
+    {
+      "transaction_hour": 21,
+      "n": 5619,
+      "frauds": 108,
+      "fraud_rate_pct": 1.922
+    },
+    {
+      "transaction_hour": 22,
+      "n": 4024,
+      "frauds": 82,
+      "fraud_rate_pct": 2.038
+    },
+    {
+      "transaction_hour": 23,
+      "n": 2264,
+      "frauds": 39,
+      "fraud_rate_pct": 1.723
+    }
+  ],
+  "by_category": [
+    {
+      "merchant_category": "Online Retail",
+      "n": 13417,
+      "frauds": 446,
+      "fraud_rate_pct": 3.324,
+      "fraud_loss": 45287.5
+    },
+    {
+      "merchant_category": "Travel & Airlines",
+      "n": 6612,
+      "frauds": 193,
+      "fraud_rate_pct": 2.919,
+      "fraud_loss": 67964.06
+    },
+    {
+      "merchant_category": "Entertainment & Streaming",
+      "n": 5848,
+      "frauds": 146,
+      "fraud_rate_pct": 2.497,
+      "fraud_loss": 3481.39
+    },
+    {
+      "merchant_category": "Utilities & Telecom",
+      "n": 1036,
+      "frauds": 24,
+      "fraud_rate_pct": 2.317,
+      "fraud_loss": 1147.2
+    },
+    {
+      "merchant_category": "Hotel & Lodging",
+      "n": 6360,
+      "frauds": 133,
+      "fraud_rate_pct": 2.091,
+      "fraud_loss": 42512.75
+    },
+    {
+      "merchant_category": "Electronics & Technology",
+      "n": 6934,
+      "frauds": 142,
+      "fraud_rate_pct": 2.048,
+      "fraud_loss": 32218.03
+    },
+    {
+      "merchant_category": "Home Improvement",
+      "n": 3824,
+      "frauds": 74,
+      "fraud_rate_pct": 1.935,
+      "fraud_loss": 11192.95
+    },
+    {
+      "merchant_category": "Healthcare & Pharmacy",
+      "n": 7903,
+      "frauds": 151,
+      "fraud_rate_pct": 1.911,
+      "fraud_loss": 25798.68
+    },
+    {
+      "merchant_category": "Financial Services",
+      "n": 873,
+      "frauds": 16,
+      "fraud_rate_pct": 1.833,
+      "fraud_loss": 7387.42
+    },
+    {
+      "merchant_category": "Auto & Transportation",
+      "n": 3974,
+      "frauds": 69,
+      "fraud_rate_pct": 1.736,
+      "fraud_loss": 7179.49
+    },
+    {
+      "merchant_category": "Clothing & Apparel",
+      "n": 6324,
+      "frauds": 109,
+      "fraud_rate_pct": 1.724,
+      "fraud_loss": 8918.65
+    },
+    {
+      "merchant_category": "Grocery & Supermarket",
+      "n": 12137,
+      "frauds": 198,
+      "fraud_rate_pct": 1.631,
+      "fraud_loss": 9831.58
+    },
+    {
+      "merchant_category": "Gas Station",
+      "n": 10885,
+      "frauds": 167,
+      "fraud_rate_pct": 1.534,
+      "fraud_loss": 5702.63
+    },
+    {
+      "merchant_category": "Restaurant & Dining",
+      "n": 12736,
+      "frauds": 172,
+      "fraud_rate_pct": 1.351,
+      "fraud_loss": 7011.08
+    },
+    {
+      "merchant_category": "Education",
+      "n": 1137,
+      "frauds": 15,
+      "fraud_rate_pct": 1.319,
+      "fraud_loss": 4208.79
+    }
+  ],
+  "by_channel": [
+    {
+      "transaction_channel": "Online",
+      "n": 45532,
+      "frauds": 1447,
+      "fraud_rate_pct": 3.178
+    },
+    {
+      "transaction_channel": "Mobile App",
+      "n": 12759,
+      "frauds": 244,
+      "fraud_rate_pct": 1.912
+    },
+    {
+      "transaction_channel": "ATM",
+      "n": 5932,
+      "frauds": 77,
+      "fraud_rate_pct": 1.298
+    },
+    {
+      "transaction_channel": "In-store",
+      "n": 35777,
+      "frauds": 287,
+      "fraud_rate_pct": 0.802
+    }
+  ],
+  "by_device": [
+    {
+      "device_type": "Desktop",
+      "n": 20514,
+      "frauds": 646,
+      "fraud_rate_pct": 3.149
+    },
+    {
+      "device_type": "Mobile",
+      "n": 37777,
+      "frauds": 1045,
+      "fraud_rate_pct": 2.766
+    },
+    {
+      "device_type": "ATM",
+      "n": 5932,
+      "frauds": 77,
+      "fraud_rate_pct": 1.298
+    },
+    {
+      "device_type": "POS Terminal",
+      "n": 35777,
+      "frauds": 287,
+      "fraud_rate_pct": 0.802
+    }
+  ],
+  "by_country": [
+    {
+      "merchant_country": "Romania",
+      "n": 943,
+      "frauds": 122,
+      "fraud_rate_pct": 12.937
+    },
+    {
+      "merchant_country": "Russia",
+      "n": 1046,
+      "frauds": 119,
+      "fraud_rate_pct": 11.377
+    },
+    {
+      "merchant_country": "Nigeria",
+      "n": 1261,
+      "frauds": 138,
+      "fraud_rate_pct": 10.944
+    },
+    {
+      "merchant_country": "China",
+      "n": 1682,
+      "frauds": 166,
+      "fraud_rate_pct": 9.869
+    },
+    {
+      "merchant_country": "South Korea",
+      "n": 788,
+      "frauds": 26,
+      "fraud_rate_pct": 3.299
+    },
+    {
+      "merchant_country": "South Africa",
+      "n": 1140,
+      "frauds": 37,
+      "fraud_rate_pct": 3.246
+    },
+    {
+      "merchant_country": "Brazil",
+      "n": 2354,
+      "frauds": 70,
+      "fraud_rate_pct": 2.974
+    },
+    {
+      "merchant_country": "Canada",
+      "n": 7238,
+      "frauds": 205,
+      "fraud_rate_pct": 2.832
+    },
+    {
+      "merchant_country": "Australia",
+      "n": 5423,
+      "frauds": 153,
+      "fraud_rate_pct": 2.821
+    },
+    {
+      "merchant_country": "France",
+      "n": 4521,
+      "frauds": 126,
+      "fraud_rate_pct": 2.787
+    },
+    {
+      "merchant_country": "UAE",
+      "n": 940,
+      "frauds": 26,
+      "fraud_rate_pct": 2.766
+    },
+    {
+      "merchant_country": "Netherlands",
+      "n": 3039,
+      "frauds": 84,
+      "fraud_rate_pct": 2.764
+    },
+    {
+      "merchant_country": "Mexico",
+      "n": 1921,
+      "frauds": 52,
+      "fraud_rate_pct": 2.707
+    },
+    {
+      "merchant_country": "Italy",
+      "n": 3344,
+      "frauds": 87,
+      "fraud_rate_pct": 2.602
+    },
+    {
+      "merchant_country": "Germany",
+      "n": 5651,
+      "frauds": 143,
+      "fraud_rate_pct": 2.531
+    },
+    {
+      "merchant_country": "Spain",
+      "n": 2849,
+      "frauds": 72,
+      "fraud_rate_pct": 2.527
+    },
+    {
+      "merchant_country": "India",
+      "n": 2175,
+      "frauds": 54,
+      "fraud_rate_pct": 2.483
+    },
+    {
+      "merchant_country": "Japan",
+      "n": 821,
+      "frauds": 20,
+      "fraud_rate_pct": 2.436
+    },
+    {
+      "merchant_country": "UK",
+      "n": 8349,
+      "frauds": 198,
+      "fraud_rate_pct": 2.372
+    },
+    {
+      "merchant_country": "USA",
+      "n": 44515,
+      "frauds": 157,
+      "fraud_rate_pct": 0.353
+    }
+  ],
+  "by_month": [
+    {
+      "txn_month": 1,
+      "label": "Jan",
+      "n": 8593,
+      "frauds": 191,
+      "fraud_rate_pct": 2.223,
+      "fraud_loss": 32358.42
+    },
+    {
+      "txn_month": 2,
+      "label": "Feb",
+      "n": 7928,
+      "frauds": 151,
+      "fraud_rate_pct": 1.905,
+      "fraud_loss": 22091.11
+    },
+    {
+      "txn_month": 3,
+      "label": "Mar",
+      "n": 8445,
+      "frauds": 164,
+      "fraud_rate_pct": 1.942,
+      "fraud_loss": 22120.54
+    },
+    {
+      "txn_month": 4,
+      "label": "Apr",
+      "n": 8119,
+      "frauds": 156,
+      "fraud_rate_pct": 1.921,
+      "fraud_loss": 16177.54
+    },
+    {
+      "txn_month": 5,
+      "label": "May",
+      "n": 8295,
+      "frauds": 171,
+      "fraud_rate_pct": 2.061,
+      "fraud_loss": 22662.32
+    },
+    {
+      "txn_month": 6,
+      "label": "Jun",
+      "n": 8179,
+      "frauds": 153,
+      "fraud_rate_pct": 1.871,
+      "fraud_loss": 23026.8
+    },
+    {
+      "txn_month": 7,
+      "label": "Jul",
+      "n": 8435,
+      "frauds": 181,
+      "fraud_rate_pct": 2.146,
+      "fraud_loss": 20512.69
+    },
+    {
+      "txn_month": 8,
+      "label": "Aug",
+      "n": 8394,
+      "frauds": 174,
+      "fraud_rate_pct": 2.073,
+      "fraud_loss": 23184.77
+    },
+    {
+      "txn_month": 9,
+      "label": "Sep",
+      "n": 8275,
+      "frauds": 164,
+      "fraud_rate_pct": 1.982,
+      "fraud_loss": 17379.78
+    },
+    {
+      "txn_month": 10,
+      "label": "Oct",
+      "n": 8630,
+      "frauds": 198,
+      "fraud_rate_pct": 2.294,
+      "fraud_loss": 26000.04
+    },
+    {
+      "txn_month": 11,
+      "label": "Nov",
+      "n": 8284,
+      "frauds": 175,
+      "fraud_rate_pct": 2.113,
+      "fraud_loss": 30158.98
+    },
+    {
+      "txn_month": 12,
+      "label": "Dec",
+      "n": 8423,
+      "frauds": 177,
+      "fraud_rate_pct": 2.101,
+      "fraud_loss": 24169.21
+    }
+  ],
+  "composite_signals": [
+    {
+      "signal": "high_risk_country",
+      "n": 4932,
+      "frauds": 545,
+      "fraud_rate_pct": 11.05,
+      "lift_vs_baseline": 5.38
+    },
+    {
+      "signal": "overnight (00-05)",
+      "n": 2972,
+      "frauds": 159,
+      "fraud_rate_pct": 5.35,
+      "lift_vs_baseline": 2.6
+    },
+    {
+      "signal": "account < 30 days",
+      "n": 3526,
+      "frauds": 151,
+      "fraud_rate_pct": 4.282,
+      "lift_vs_baseline": 2.08
+    },
+    {
+      "signal": "amount > 5x avg",
+      "n": 8438,
+      "frauds": 326,
+      "fraud_rate_pct": 3.863,
+      "lift_vs_baseline": 1.88
+    },
+    {
+      "signal": "international",
+      "n": 55485,
+      "frauds": 1898,
+      "fraud_rate_pct": 3.421,
+      "lift_vs_baseline": 1.66
+    },
+    {
+      "signal": "online channel",
+      "n": 45532,
+      "frauds": 1447,
+      "fraud_rate_pct": 3.178,
+      "lift_vs_baseline": 1.55
+    },
+    {
+      "signal": "chargeback ever",
+      "n": 22968,
+      "frauds": 696,
+      "fraud_rate_pct": 3.03,
+      "lift_vs_baseline": 1.47
+    },
+    {
+      "signal": "declined in last 30d",
+      "n": 28175,
+      "frauds": 697,
+      "fraud_rate_pct": 2.474,
+      "lift_vs_baseline": 1.2
+    }
+  ],
+  "driver_tiers": [
+    {
+      "tier": 1,
+      "multiplier": "\u22655\u00d7",
+      "drivers": "high_risk_country, overnight-hour window (00-05)"
+    },
+    {
+      "tier": 2,
+      "multiplier": "2-5\u00d7",
+      "drivers": "international_transaction, account_age<30d, amount_vs_avg_ratio>5\u00d7"
+    },
+    {
+      "tier": 3,
+      "multiplier": "1.5-2\u00d7",
+      "drivers": "Online channel, Desktop/Mobile device, chargeback_ever>0, tx_last_1h\u22652"
+    },
+    {
+      "tier": 4,
+      "multiplier": "1.1-1.5\u00d7",
+      "drivers": "high-risk merchant categories, declined_last_30d>0"
+    },
+    {
+      "tier": 5,
+      "multiplier": "\u22481\u00d7 (no signal)",
+      "drivers": "customer_age, customer_gender, day-of-week, email_domain"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "R1",
+      "priority": "Critical",
+      "title": "Deploy tiered velocity-and-anomaly scoring rule",
+      "impact": "$70K-$95K annualised loss avoidance",
+      "risk": "Medium \u2014 false-positive monitoring required",
+      "validation": "4-week A/B shadow test"
+    },
+    {
+      "id": "R2",
+      "priority": "Critical",
+      "title": "Step-up auth for Online/Mobile 00-05 local time",
+      "impact": "$15K-$25K annualised loss avoidance",
+      "risk": "Low \u2014 small overnight volume = minimal friction",
+      "validation": "Pre/post fraud rate in 00-05 window"
+    },
+    {
+      "id": "R3",
+      "priority": "High",
+      "title": "Country-tiered rule severity (3 tiers)",
+      "impact": "$30K-$45K annualised loss avoidance",
+      "risk": "Medium \u2014 must avoid blocking legit cross-border",
+      "validation": "Decline rate per tier over 8 weeks"
+    },
+    {
+      "id": "R4",
+      "priority": "High",
+      "title": "New-account monitoring rule (account_age<30d)",
+      "impact": "$10K-$20K annualised loss avoidance",
+      "risk": "Low \u2014 new accounts expect enhanced verification",
+      "validation": "New vs mature account fraud rate pre/post"
+    },
+    {
+      "id": "R5",
+      "priority": "Medium",
+      "title": "Category-aware amount-velocity thresholds",
+      "impact": "$10K-$15K annualised loss avoidance",
+      "risk": "Low \u2014 rule tuning, not new rule",
+      "validation": "Backtest on 12-month history"
+    },
+    {
+      "id": "R6",
+      "priority": "Medium",
+      "title": "Seasonally tighten velocity in Oct-Dec",
+      "impact": "$5K-$10K annualised loss avoidance",
+      "risk": "Low \u2014 temporary adjustment",
+      "validation": "Q4 fraud rate vs Q1 baseline"
+    }
+  ],
+  "stat_tests": {
+    "welch_t_amount": {
+      "t_stat": 5.977896809488106,
+      "p_value": 2.646297355507994e-09
+    },
+    "chi2_channel": {
+      "chi2": 582.439629332435,
+      "dof": 3,
+      "p_value": 6.45878348022607e-126
+    }
+  },
+  "rfm_segments": [
+    {
+      "rfm_segment": "Hibernating",
+      "customer_count": 1618,
+      "avg_monetary": 1103.9993819530284,
+      "avg_recency_days": 0.6822002472187886,
+      "avg_frequency": 8.893695920889988,
+      "total_frauds": 315,
+      "segment_share_pct": 20.23
+    },
+    {
+      "rfm_segment": "Loyal Customers",
+      "customer_count": 1495,
+      "avg_monetary": 1946.8342675585284,
+      "avg_recency_days": 0.13618729096989968,
+      "avg_frequency": 14.565217391304348,
+      "total_frauds": 457,
+      "segment_share_pct": 18.69
+    },
+    {
+      "rfm_segment": "New Customers",
+      "customer_count": 1036,
+      "avg_monetary": 1191.9205308880307,
+      "avg_recency_days": 0.06254826254826254,
+      "avg_frequency": 9.394787644787645,
+      "total_frauds": 200,
+      "segment_share_pct": 12.95
+    },
+    {
+      "rfm_segment": "Champions",
+      "customer_count": 950,
+      "avg_monetary": 2632.8015473684213,
+      "avg_recency_days": 0.05726315789473685,
+      "avg_frequency": 16.642105263157895,
+      "total_frauds": 348,
+      "segment_share_pct": 11.88
+    },
+    {
+      "rfm_segment": "Need Attention",
+      "customer_count": 851,
+      "avg_monetary": 1152.842596944771,
+      "avg_recency_days": 0.2882491186839013,
+      "avg_frequency": 11.158636897767332,
+      "total_frauds": 175,
+      "segment_share_pct": 10.64
+    },
+    {
+      "rfm_segment": "At Risk",
+      "customer_count": 775,
+      "avg_monetary": 2187.9179354838707,
+      "avg_recency_days": 0.48864516129032254,
+      "avg_frequency": 15.691612903225806,
+      "total_frauds": 247,
+      "segment_share_pct": 9.69
+    },
+    {
+      "rfm_segment": "Potential Loyalists",
+      "customer_count": 773,
+      "avg_monetary": 889.7910996119017,
+      "avg_recency_days": 0.10646830530401034,
+      "avg_frequency": 13.661060802069859,
+      "total_frauds": 201,
+      "segment_share_pct": 9.66
+    },
+    {
+      "rfm_segment": "Lost",
+      "customer_count": 376,
+      "avg_monetary": 1580.131994680851,
+      "avg_recency_days": 0.7646276595744681,
+      "avg_frequency": 12.835106382978724,
+      "total_frauds": 93,
+      "segment_share_pct": 4.7
+    },
+    {
+      "rfm_segment": "Promising",
+      "customer_count": 126,
+      "avg_monetary": 2347.4182539682542,
+      "avg_recency_days": 0.20952380952380953,
+      "avg_frequency": 9.912698412698413,
+      "total_frauds": 19,
+      "segment_share_pct": 1.58
+    }
+  ]
+}

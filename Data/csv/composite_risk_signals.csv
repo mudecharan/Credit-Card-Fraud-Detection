@@ -1,0 +1,9 @@
+signal,n,frauds,fraud_rate_pct,lift_vs_baseline
+high_risk_country,4932,545,11.05,5.38
+overnight (00-05),2972,159,5.35,2.6
+account < 30 days,3526,151,4.282,2.08
+amount > 5x avg,8438,326,3.863,1.88
+international,55485,1898,3.421,1.66
+online channel,45532,1447,3.178,1.55
+chargeback ever,22968,696,3.03,1.47
+declined in last 30d,28175,697,2.474,1.2

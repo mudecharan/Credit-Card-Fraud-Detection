@@ -1,0 +1,7 @@
+id,priority,title,impact,risk,validation
+R1,Critical,Deploy tiered velocity-and-anomaly scoring rule,$70K-$95K annualised loss avoidance,Medium — false-positive monitoring required,4-week A/B shadow test
+R2,Critical,Step-up auth for Online/Mobile 00-05 local time,$15K-$25K annualised loss avoidance,Low — small overnight volume = minimal friction,Pre/post fraud rate in 00-05 window
+R3,High,Country-tiered rule severity (3 tiers),$30K-$45K annualised loss avoidance,Medium — must avoid blocking legit cross-border,Decline rate per tier over 8 weeks
+R4,High,New-account monitoring rule (account_age<30d),$10K-$20K annualised loss avoidance,Low — new accounts expect enhanced verification,New vs mature account fraud rate pre/post
+R5,Medium,Category-aware amount-velocity thresholds,$10K-$15K annualised loss avoidance,"Low — rule tuning, not new rule",Backtest on 12-month history
+R6,Medium,Seasonally tighten velocity in Oct-Dec,$5K-$10K annualised loss avoidance,Low — temporary adjustment,Q4 fraud rate vs Q1 baseline

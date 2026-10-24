@@ -1,0 +1,2 @@
+test_name,h0,n_fraud,mean_fraud,n_legit,mean_legit,t_statistic,p_value,alpha,decision
+Welch's t-test,μ(fraud) = μ(legitimate),2055,169.9317,97945,125.9685,5.9779,2.646297355507994e-09,0.05,Reject H₀
