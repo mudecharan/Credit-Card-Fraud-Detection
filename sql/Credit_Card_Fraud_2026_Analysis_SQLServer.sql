@@ -362,12 +362,12 @@ GO
 
 /*
 -- Method 1: BCP from CSV
-bcp CreditCardFraud2026DB.fact.FactTransactions IN "/home/z/my-project/data/credit_card_fraud_detection_2026.csv"
+bcp CreditCardFraud2026DB.fact.FactTransactions IN "my-project/data/credit_card_fraud_detection_2026.csv"
    -c -t"," -r"\\n" -U <user> -P <password> -S <server>
 
 -- Method 2: BULK INSERT from staging
 BULK INSERT fact.FactTransactions
-FROM '/home/z/my-project/data/credit_card_fraud_detection_2026.csv'
+FROM 'my-project/data/credit_card_fraud_detection_2026.csv'
 WITH (
     FORMAT = 'CSV',
     FIELDQUOTE = '"',
